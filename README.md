@@ -17,6 +17,7 @@
 - **📊 Statistics**: Monitor player performance in real time.  
 - **💾 Caching**: Improve performance and reduce load times with cached data.  
 - **📁 File Upload/Download**: Manage player assets like photos or documents.  
+- **💾 Offline Mode**: Cached data allows you to continue using the app even if the server is down.
 
 ### Security & Backend
 - **🔒 JWT Authentication**: Secure login and access control.  
