@@ -1,0 +1,88 @@
+# Root
+.env
+.env.*          # ignore all environment-specific files
+node_modules/
+dist/
+build/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Mac system files
+.DS_Store
+
+# IDEs
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# OS files
+Thumbs.db
+
+#############
+# Frontend  #
+#############
+
+# If frontend is in /client or /frontend directory
+/frontend/node_modules/
+/frontend/build/
+/frontend/dist/
+/frontend/.env
+/frontend/.DS_Store
+/frontend/.eslintcache
+
+#############
+# Backend   #
+#############
+
+# If backend is in /server or /backend directory
+/backend/node_modules/
+/backend/dist/
+/backend/.env
+/backend/.DS_Store
+/backend/coverage/
+
+#############
+# PostgreSQL #
+#############
+
+# Ignore dump or temp database files (if manually created)
+*.sql
+*.sqlite
+*.dump
+
+# Sequelize migration logs
+/sequelize-meta.json
+/sequelize-data.json
+
+# Optional: if using a `prisma` setup
+/prisma/.env
+
+#############
+# Logs or Temporary #
+#############
+
+*.log
+logs/
+*.pid
+*.seed
+*.bak
+*.tmp
+temp/
+tmp/
+
+# Optional: PM2 process file
+pids/
+*.pid
+
+# Optional: coverage reports
+coverage/
+.nyc_output/
+
+# Optional: if using testing tools
+jest-test-results.json
+test-results/
