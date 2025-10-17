@@ -1,0 +1,16 @@
+html{
+  background: linear-gradient(to right, #0F172A, #334155);
+}
+
+.home-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+    width: 100vw;
+    height: 100vh;
+  
+    background: linear-gradient(to right, #0F172A, #334155);
+  }
+  
